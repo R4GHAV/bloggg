@@ -33,6 +33,11 @@ body{
   padding: 23px 16px;
   text-decoration: none;
 }
+.nav-items.new{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .nav-items.icon{
   display: flex;
   justify-content: flex-end;
@@ -41,3 +46,32 @@ body{
   font-size: 19px;
   padding: 23px 20px;
 }
+
+/* up-brand */
+.up-brand{
+  text-align: center;
+  display: none;
+}
+.up-brand a{
+  text-decoration: none;
+  font-size: 36px;
+  color: rgb(41, 41, 41);
+}
+
+@media only screen and (max-width: 1100px) {
+  .nav-components, .up-brand{
+    display: block;
+  }
+  .brand{
+    display: none;
+  }
+  .nav-items.icon{
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 700px) {
+  /* .nav-items.icon{
+    display: none;
+  } */
+}
+
