@@ -1,278 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@200&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- Nav Bar -->
-    <div class="nav" id="nav">
-      <div class="name"><strong class="red">TrippyDoc</strong></div>
-      <div class="item">
-        <strong
-          ><div class="a-item"><a href="">HOME</a></div></strong
-        >
-        <strong
-          ><div class="a-item"><a href="">POST</a></div></strong
-        >
-        <strong
-          ><div class="a-item"><a href="">VIDEO</a></div></strong
-        >
-        <strong
-          ><div class="a-item"><a href="">ABOUT</a></div></strong
-        >
-        <strong
-          ><div class="a-item"><a href="">CONTACT</a></div></strong
-        >
-        <strong
-          ><div class="a-item"><a href="">SEARCH</a></div></strong
-        >
-        <a class="icon" onclick="myFunction()">
-          <span class="dash"></span>
-          <span class="dash"></span>
-          <span class="dash"></span>
-        </a>
-      </div>
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+<body>
 
-    <div class="photo">
-      <div class="appear">
-        <ul>
-          <strong
-            ><li><a href="">HOME</a></li></strong
-          >
-          <strong
-            ><li><a href="">POST</a></li></strong
-          >
-          <strong
-            ><li><a href="">VIDEO</a></li></strong
-          >
-          <strong
-            ><li><a href="">ABOUT</a></li></strong
-          >
-          <strong
-            ><li><a href="">CONTACT</a></li></strong
-          >
-          <strong
-            ><li><a href="">SEARCH</a></li></strong
-          >
-        </ul>
-      </div>
-
-      <div class="img-slideshow">
-        <div class="img fade">
-          <img
-            src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0,176,3008,1654&wid=4000&hei=2200&scl=0.752"
-            alt=""
-          />
-        </div>
-        <div class="img fade">
-          <img src="https://scx2.b-cdn.net/gfx/news/2019/2-nature.jpg" alt="" />
-        </div>
-        <div class="img fade">
-          <img
-            src="https://i.guim.co.uk/img/media/0fb2e0045ccbb19b83c84b3049e4cec8e9714192/0_149_4245_2547/master/4245.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=dd3cd4761f4eb4c1f854d172b89849a7"
-            alt=""
-          />
-        </div>
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-    </div>
-
-    <div class="big-class">
-      <div class="blog">
-        <div class="category">LIFESTYLE</div>
-        <div class="blogContent">
-          <h2>Dream It Achieve It</h2>
-          <p class="date">MAY 16,2021</p>
-          <img src="car.jpg" alt="" />
-          <p class="text">
-            <strong>
-              lipsum dolor, sit amet consectetur adipisicing elit. Iusto, esse
-              rerum. Dignissimos quas nemo aliquam, laborum officia qui cumque
-              minus porro modi nisi ratione voluptatibus quasi, architecto
-              tempora corrupti aspernatur, totam temporibus corporis harum
-              natus? Veritatis, fugiat!</strong
-            >
-          </p>
-          <a href="" class="continue">Continue Reading &#10095;</a>
-        </div>
-        <hr class="hrLine" />
-        <div class="category">TRAVEL</div>
-        <div class="blogContent">
-          <h2>TO THE LAND</h2>
-          <p class="date">MAY 13,2021</p>
-          <img src="ddlj.jpg" alt="" />
-          <p class="text">
-            <strong>
-              lipsum dolor, sit amet consectetur adipisicing elit. Iusto, esse
-              rerum. Dignissimos quas nemo aliquam, laborum officia qui cumque
-              minus porro modi nisi ratione voluptatibus quasi, architecto
-              tempora corrupti aspernatur, totam temporibus corporis harum
-              natus? Veritatis, fugiat!</strong
-            >
-          </p>
-          <a href="" class="continue">Continue Reading &#10095;</a>
-        </div>
-        <hr class="hrLine" />
-        <div class="category">TRAVEL</div>
-        <div class="blogContent">
-          <h2>TRIP TO SENNEN BEACH</h2>
-          <p class="date">MAY 10,2021</p>
-          <img src="all.jpg" alt="" />
-          <p class="text">
-            <strong
-              >lipsum dolor, sit amet consectetur adipisicing elit. Iusto, esse
-              rerum. Dignissimos quas nemo aliquam, laborum officia qui cumque
-              minus porro modi nisi ratione voluptatibus quasi, architecto
-              tempora corrupti aspernatur, totam temporibus corporis harum
-              natus? Veritatis, fugiat!</strong
-            >
-          </p>
-          <a href="" class="continue">Continue Reading &#10095;</a>
-          <hr class="hrLine" />
-        </div>
-      </div>
-
-      <div class="aboutMe">
-        <div class="aboutMe-box">
-          <div class="aboutMe-box-in">
-            <p class="about-head">ABOUT ME</p>
-            <hr class="hrLineAbt" />
-            <img
-              src="https://i.pinimg.com/originals/f2/69/43/f2694391fe65343efa339b0ba7e9a6c0.png"
-              alt=""
-              class="abtImg"
-            />
-            <p class="about-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-              ratione ipsum a optio sequi officiis rerum dignissimos
-              reprehenderit, doloremque, itaque sunt nisi. Quisquam asperiores
-              temporibus explicabo voluptatem distinctio sunt nostrum magnam.
-              Eaque rem sed eum!
-            </p>
-            <p class="continue">Continue Reading &#10095;</p>
-          </div>
-        </div>
-
-        <div class="aboutMe-box">
-          <div class="aboutMe-box-in">
-            <p class="about-head">SOCIALS</p>
-            <hr class="hrLineAbt" />
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-spotify"></i>
-          </div>
-        </div>
-
-
-
-        <div class="aboutMe-box">
-          <div class="aboutMe-box-in">
-            <p class="about-head">ARCHIVES</p>
-            <hr class="hrLineAbt" />
-            <p style="text-align: left;"  class="about-text">JAN 2021</p>
-            <p style="text-align: left;"  class="about-text">DEC 2020</p>
-            <p style="text-align: left;"  class="about-text">NOV 2020</p>
-            <p style="text-align: left;"  class="about-text">OCT 2020</p>
-            <p class="continue">Continue Reading &#10095;</p>
-          </div>
-        </div>
-
-
-
-
-      </div>
-    </div>
-
-    <!-- FOOTER -->
-
-
-<div class="footer">
-    <div class="footLeft verHR">
-  <div class="name "><strong class="black">TrippyDoc</strong>
-  
-    <p class="pp">A DOCTOR WHO IS ALWAYS TRIPPY</p>
-    <p>& HERE IS MY TRIPPY BLOG</p>
-  
-  
+<!-- <div class="navbar">
+  <div class="nav-components">
+  <div class="brand">
+    <a href="index.html">DR. HITESH KHANNA</a>
   </div>
-
-
-
+  <div class="nav-items">
+    <a href="">Learn</a>
+    <a href="">Video</a>
+    <a href="">Podcast</a>
+    <a href="">Test</a>
+    <a href="">Books</a>
+    <a href="">Flashcards</a>
     </div>
-  <div class="footMid ">
-    <h2 style="margin: 0;">ABOUT ME</h2>
-    <p class="pp" style="color: white;">I am the only person in the world I should like to know thoroughly.</p>
-    <hr style="border-bottom: 1px;">
-    <div class="list">
-      <p class="about-head">SOCIALS</p>
-      <i class="fab fabs fa-instagram"></i>
-      <i class="fab fabs fa-facebook-f"></i>
-      <i class="fab fabs fa-twitter"></i>
-      <i class="fab fabs fa-spotify"></i>
-    </div>
- </div>
-
-
-
- <div class="footRight">
-  <div class="list">
-    <a href="">POST</a>
-    <a href="">VIDEO</a>
-    <a href="">CONTACT</a>
+    <div class="nav-items">
+    <a href=""><i class="fab fa-instagram"></i></a>
+    <a href=""><i class="fab fa-twitter"></i></a>
+    <a href=""><i class="fab fa-facebook-f"></i></a>
+    <a href=""><i class="fab fa-youtube"></i></a>
   </div>
+</div>
+</div> -->
 
 
-  <form class="form ">
-    <h2 style="margin: 40px 0;">SIGNUP TO NEWSLETTER</h2>
-    <input class="inputb" type="button" style="z-index: 3;" value="Go" >
-    <input class="inputa"type="text"  placeholder="Your Email" name="search">
-   
- </form>
 
-
+<div class="navbar">
+  <div class="nav-components">
+  
+  <div class="nav-items">
+    <a href="">Learn</a>
+    <a href="">Video</a>
+    <a href="">Podcast</a>
+    <a href="">Test</a>
+    <a href="">Books</a>
+    <a href="">Flashcards</a>
+    </div>
+    <div class="brand">
+      <a href="index.html">DR. HITESH KHANNA</a>
+    </div>
+    <div class="nav-items icon">
+    <a href=""><i class="fab fa-instagram"></i></a>
+    <a href=""><i class="fab fa-twitter"></i></a>
+    <a href=""><i class="fab fa-spotify"></i></a>
+    <a href=""><i class="fab fa-facebook-f"></i></a>
+    <a href=""><i class="fab fa-youtube"></i></a>
+  </div>
+</div>
 </div>
 
 
 
+<div class="pic">
+  <img style="width: 100%; max-height: 600px;" src="https://cdn.dribbble.com/users/3759917/screenshots/6795906/organ-icon__1__4x.png?compress=1&resize=1600x1200" alt="">
+  <!-- https://w.wallha.com/ws/3/P3zcCgWp.png -->
+  <!-- https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/56ff18e2-68ff-4929-b47c-b6aaf5234c77/dat5uzf-25afe817-6f1d-43d1-94a9-a672e65d86cc.jpg -->
+  <!-- http://wallpoper.com/images/00/25/61/21/minimalistic-pills_00256121.jpg -->
+  <!-- https://i.pinimg.com/originals/95/dd/93/95dd931ed14cb699e35aa246f77bc703.png -->
+  <!-- https://c4.wallpaperflare.com/wallpaper/922/313/191/abstract-abstraction-biology-chemistry-wallpaper-preview.jpg -->
 </div>
 
 
 
-    <script src="index.js"></script>
-  </body>
+
+<!-- <div  style="background-color: red; height: 1000px; width: 100%;"  class="test"></div> -->
+
+
+<link rel="stylesheet" href="index.js">
+</body>
 </html>
