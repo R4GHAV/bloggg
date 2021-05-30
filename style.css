@@ -43,7 +43,7 @@ body{
   justify-content: flex-end;
 }
 .nav-items.icon a{
-  font-size: 19px;
+  font-size: 20px;
   padding: 23px 20px;
 }
 
@@ -70,8 +70,11 @@ body{
   }
 }
 @media only screen and (max-width: 700px) {
-  /* .nav-items.icon{
+  .nav-items.icon{
     display: none;
-  } */
+  }
+  .nav-items a{
+    padding: 23px;
+  }
 }
 
