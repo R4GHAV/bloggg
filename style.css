@@ -78,3 +78,27 @@ body{
   }
 }
 
+.content-section{
+ padding: 25px 150px;
+}
+.content-section div{
+  max-width: 33%;
+  float: left;
+}
+.content-section img{
+  width: 100%;
+  height: auto;
+  margin: 10px;
+}
+@media only screen and (max-width: 1000px) {
+  .content-section div{
+    max-width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .content-section div{
+    max-width: 100%;
+  }
+}
