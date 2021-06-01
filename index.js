@@ -8,4 +8,3 @@ function scrollFunction() {
     document.getElementById("navbar").style.position="relative";
   }
 }
-alert('hi')
