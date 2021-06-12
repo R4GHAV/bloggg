@@ -1,48 +1,132 @@
-.width-80{
-    width: 80%;
-    margin: 80px auto;
-    position: relative;
+body {
+  background-color: #eee;
 }
-.ifChannel{
-    margin: 20px 0;
-    padding: 20px 0;
-    border: 2px solid #ddd;
+.vid-nav {
+  width: 100%;
+  display: flex;
+  background-color: rgb(216, 216, 216);
+  justify-content: flex-end;
+  margin-bottom: 10px;
 }
-.vid-nav{
+.vid-nav a {
+  text-decoration: none;
+  padding: 14px 16px;
+  color: rgb(146, 146, 146);
+}
+.vid-nav p {
+  margin: 0;
+  padding: 14px 16px;
+  padding-right: 100px;
+}
+.vid-nav i {
+  padding: 16px 0;
+}
+.width-90 {
+  width: 90%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 700px) {
+  .vid-nav {
     width: 100%;
     display: flex;
     background-color: rgb(216, 216, 216);
-    justify-content: flex-end;
-}
-.vid-nav a{
-    text-decoration: none;
-    padding: 14px 16px;
-    color: rgb(146, 146, 146);
-}
-.vid-nav p{
+    justify-content: center;
+  }
+  .vid-nav p {
     margin: 0;
     padding: 14px 16px;
-    padding-right: 100px;
+  }
 }
-.vid-nav i{
-    padding: 16px 0;
+
+.container {
+  width: 90%;
+  background-color: rgb(24, 24, 24);
+  margin: 0 auto;
+  display: flex;
+}
+
+section {
+  flex: 2;
+  width: 100%;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  padding: 2px 4px;
+  border: 1px solid rgb(24, 24, 24);
+}
+main {
+  flex: 1;
+  height: 528px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+article p,
+article h4 {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+  font-weight: 600;
+  color: white;
+}
+article p {
+  color: rgb(165, 165, 165);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.details {
+  padding: 8px 12px;
+}
+
+.thumb {
+  height: 100px;
+}
+
+.small{
+    display: none;
+}
+
+.responsive-iframe{
+    height: 528px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .container , .width-90{
+    width: 100%;
+  }
+  .responsive-iframe{
+    height: 428px;
+    width: 100%;
+}
+main {
+    flex: 2;
+    height: 428px;
+  }
+  section {
+    flex: 3;
+}
+.width-90{
+    padding: 10px;
+}
+
+}
+@media only screen and (max-width: 900px) {
+    .container, .small{
+        display: block;
+    }
+    .big{
+        display: none;
+    }
 }
 @media only screen and (max-width: 700px) {
-    .vid-nav{
+    .responsive-iframe{
+        height: 228px;
         width: 100%;
-        display: flex;
-        background-color: rgb(216, 216, 216);
-        justify-content: center;
     }
-    .vid-nav p{
-        margin: 0;
-        padding: 14px 16px;
-    }
-    .width-80{
-        width: 100%;
-        margin: 80px auto;
-    }
-    .ifVid{
-        height: 250px;
-    }
-  }
+}
+
