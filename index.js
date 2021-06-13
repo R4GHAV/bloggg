@@ -74,7 +74,7 @@ document.querySelector(".image-content-section").innerHTML = `
 
             <div class="responsive">
             <div class="gallery">
-              <a href="comingSoon.html">
+              <a href="podcast.html">
                 <img src="podcast.png" width="600" height="400" />
               </a>
             </div>
